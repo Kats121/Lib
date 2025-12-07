@@ -1,0 +1,11 @@
+{
+  "name": "myvendor/lib",
+  "description": "Lib",
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

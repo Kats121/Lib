@@ -1,9 +1,9 @@
 <?php
-namespace PizzaLib;
+namespace Lib;
 class Pizza {
-    public $name;
-    public $sauce;
-    public $toppings;
+    public string $name;
+    public string $sauce;
+    public array $toppings;
      public function __construct(string $name,string $sauce, array $toppings) {
         $this->name = $name;
         $this->sauce = $sauce;

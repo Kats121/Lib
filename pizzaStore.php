@@ -1,5 +1,5 @@
 <?php
-namespace PizzaLib;
+namespace Lib;
 class PizzaStore
 {
     public function orderPizza(string $type)
