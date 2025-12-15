@@ -1,6 +1,6 @@
 <?php
 namespace Lib;
-class PizzaStore
+class pizzaStore
 {
     public function orderPizza(string $type)
     {
